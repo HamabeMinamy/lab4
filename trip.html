@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--	Author: Zeng Ruiyi
+		Date:	oct 4, 2022
+		File:	trip.html
+		Purpose:lab
+-->
+
+<html>
+<head>
+	<title>trip</title>
+	<script src="trip.js"></script>
+</head>
+
+<body>
+	<h1>Temperature Conversions</h1>
+    <p> </p>
+    <p> Author: Zeng ruiyi<br>Student ID: 20076896d<br> 
+		Author: LIU Taotao<br>Student ID: 20084489d<br>
+		Author: Wang Yuhao<br>Student ID: 20078289d<br></p>
+    <h2> </h2>
+	<form action = "trip.php" method = "post" id="submit">
+          <table>
+		<tr>
+            <td>Average MPG:</td>
+		<td><input type = "text" size = "20" name = "MPG" id="MPG"></td>
+		</tr>
+
+		<tr><td>Average Cost of a Gallon of Fuel:</td>
+		<td><input type = "text" size = "20" name = "Cost" id="Cost"></td>
+		</tr>
+
+            <tr><td>Which city are you visiting?:</td>
+		<td><select name = "City" id="CITY">
+            <option> </option>
+            <option>Atlanta</option>
+            <option>Boston</option>
+            <option>Chicago</option>
+            <option>Detroit</option>
+            <option>Miami</option>
+            </select></td>
+		</tr>
+        </table>
+		<p>
+
+		<input type = "button" value = "My Fuel Cost" onclick="check()">
+		</p>
+
+	</form>
+
+</body>
+</html>
